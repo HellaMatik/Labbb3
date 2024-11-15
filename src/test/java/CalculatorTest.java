@@ -109,7 +109,7 @@ public class CalculatorTest {
         List<WebElement> links = driver.findElements(By.tagName("i"));
 
         System.out.println("Antal länkar: " + links.size());
-        assertTrue(links.size() > 5, "Det finns färre än 5 länkar på sidan");
+        assertTrue(links.size() > 20, "Det finns färre än 5 länkar på sidan");
 
 
     }
